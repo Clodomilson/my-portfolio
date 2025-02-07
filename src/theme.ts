@@ -14,7 +14,7 @@ let theme = createTheme({
             //'"Helvetica Neue"',
             // '-apple-system',
             // 'BlinkMacSystemFont',
-            // '"Segoe UI"',
+            //'"Segoe UI"',
             // 'Roboto',
             // '"Helvetica Neue"',
             // 'Arial',
@@ -22,7 +22,8 @@ let theme = createTheme({
             // '"Apple Color Emoji"',
             // '"Segoe UI Emoji"',
             // '"Segoe UI Symbol"',
-                '"Poppins"',
+             // '"Poppins"',
+            '"Exo 2"',
         ].join(','),
     }
 });
