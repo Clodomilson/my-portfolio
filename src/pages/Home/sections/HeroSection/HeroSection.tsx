@@ -9,10 +9,20 @@ import StyledButton from "../../../../components/StyledButton/StyledButton";
 const HeroSection: React.FC = () => {
 
     const StyledImg = styled("img")(({ theme }) => ({
-        width: "80%",
+        width: "300px",
+        height: "300px",
         border: `1px solid ${theme.palette.primary.contrastText}`,
         borderRadius: "50%",
-        position: "relative"
+        position: "relative",
+        objectFit: "cover",
+        [theme.breakpoints.down('md')]: {
+            width: "250px",
+            height: "250px",
+        },
+        [theme.breakpoints.down('sm')]: {
+            width: "200px",
+            height: "200px",
+        }
     }));
 
     const StyledHero = styled("div")(({ theme }) => ({
@@ -21,13 +31,13 @@ const HeroSection: React.FC = () => {
         [theme.breakpoints.up('xs')]: {
             display: "block",
             padding: "20px",
-            paddingTop: "100px",
+            paddingTop: "120px", // Aumentado para compensar navbar fixo
             paddingBottom: "40px",
         },
         [theme.breakpoints.up('md')]: {
             display: "flex",
             alignItems: "center",
-            paddingTop: "100px",
+            paddingTop: "120px", // Aumentado para compensar navbar fixo
             height: "100vh"
         },
     }));
@@ -48,7 +58,7 @@ const HeroSection: React.FC = () => {
 
     return (
         <>
-            <StyledHero>
+            <StyledHero id="home">
                 <Container maxWidth="lg">
                     <Grid container spacing={2}>
                         <Grid item xs={12} md={5}>
