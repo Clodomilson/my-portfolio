@@ -1,6 +1,7 @@
 import { Box, Container, Grid, Typography, styled } from "@mui/material";
 import ProjectCard, { ProjectCardProps } from "../../../../components/ProjectCard/ProjectCard";
 import AnimationComponent from "../../../../components/AnimationComponent/AnimationComponent";
+import projeto01 from "../../../../assets/images/projeto01.png";
 
 const ProjectsSection: React.FC = () => {
 
@@ -11,13 +12,13 @@ const ProjectsSection: React.FC = () => {
 
     const projects = [
         {
-            title: "Projeto Exemplo 1",
-            subtitle: "Jul 2023 - Dez 2023",
-            srcImg: "https://via.placeholder.com/400x200/4f8e3e/ffffff?text=Projeto+1",
-            description: "Este é um projeto exemplo. Substitua esta descrição pela descrição real do seu projeto. Adicione detalhes sobre as funcionalidades, desafios enfrentados e soluções implementadas.",
-            technologies: "Technologies: JavaScript, HTML, CSS, React",
-            websiteURL: "https://exemplo.com/",
-            codeURL: "https://github.com/seuusuario/projeto1",
+            title: "Projeto EcoPoint",
+            subtitle: "Mar 2025 - Jun 2025",
+            srcImg: projeto01,
+            description: "Aplicação web para localizar e cadastrar pontos de coleta de materiais recicláveis, com mapa interativo, cadastro de pontos e suporte a PWA.",
+            technologies: "Technologies: JavaScript, HTML, CSS, React, Node.js, Firebase",
+            websiteURL: "https://ecopoint-web.vercel.app/",
+            codeURL: "https://github.com/clodomilson-silva/Ecopoint_web",
         },
         {
             title: "Projeto Exemplo 2",
