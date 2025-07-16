@@ -5,6 +5,7 @@ import Avatar from "../../../../assets/images/avatar.jpg"
 import DownloadIcon from '@mui/icons-material/Download';
 import EmailIcon from '@mui/icons-material/Email';
 import StyledButton from "../../../../components/StyledButton/StyledButton";
+import CV from "../../../../assets/pdfs/cv.pdf";
 
 const HeroSection: React.FC = () => {
 
@@ -43,12 +44,21 @@ const HeroSection: React.FC = () => {
     }));
 
     const handleDownload = () => {
-        console.log("CV não disponível ainda - você pode adicionar um arquivo PDF na pasta assets/pdfs/");
-        alert("CV não disponível ainda. Por favor, adicione um arquivo PDF na pasta assets/pdfs/");
+        console.log("Baixando currículo...");
+        // Create a link element
+        const link = document.createElement('a');
+        link.href = CV;
+        link.download = 'Clodomilson_Silva_CV.pdf'; // Nome personalizado para o arquivo baixado
+        // Append the link to the body
+        document.body.appendChild(link);
+        // Trigger the click event
+        link.click();
+        // Remove the link from the body
+        document.body.removeChild(link);
     };
 
     const handleEmail = () => {
-        const emailAddress = 'example@example.com';
+        const emailAddress = 'profclodomilson@gmail.com';
         const subject = 'Subject';
         const body = 'Hello! I saw your portfolio...';
 

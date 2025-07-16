@@ -2,6 +2,7 @@ import { Box, Container, Grid, Typography, styled } from "@mui/material";
 import ProjectCard, { ProjectCardProps } from "../../../../components/ProjectCard/ProjectCard";
 import AnimationComponent from "../../../../components/AnimationComponent/AnimationComponent";
 import projeto01 from "../../../../assets/images/projeto01.png";
+import projeto02 from "../../../../assets/images/projeto02.png";
 
 const ProjectsSection: React.FC = () => {
 
@@ -13,7 +14,7 @@ const ProjectsSection: React.FC = () => {
     const projects = [
         {
             title: "Projeto EcoPoint",
-            subtitle: "Mar 2025 - Jun 2025",
+            subtitle: "Mar 2025 - em andamento",
             srcImg: projeto01,
             description: "Aplicação web para localizar e cadastrar pontos de coleta de materiais recicláveis, com mapa interativo, cadastro de pontos e suporte a PWA.",
             technologies: "Technologies: JavaScript, HTML, CSS, React, Node.js, Firebase",
@@ -21,13 +22,13 @@ const ProjectsSection: React.FC = () => {
             codeURL: "https://github.com/clodomilson-silva/Ecopoint_web",
         },
         {
-            title: "Projeto Exemplo 2",
-            subtitle: "Jan 2024 - Mar 2024",
-            srcImg: "https://via.placeholder.com/400x200/232323/ffffff?text=Projeto+2",
-            description: "Outro projeto exemplo. Aqui você pode descrever um projeto diferente, suas tecnologias, aprendizados e resultados obtidos durante o desenvolvimento.",
-            technologies: "Technologies: TypeScript, React, Node.js, MongoDB",
-            websiteURL: "https://exemplo2.com/",
-            codeURL: "https://github.com/seuusuario/projeto2",
+            title: "Projeto Sistema Escolar",
+            subtitle: "Jun 2025 - em andamento",
+            srcImg: projeto02,
+            description: "Sistema completo para gerenciamento escolar desenvolvido com Node.js + Express no backend, React + TypeScript no frontend e Firebase Firestore como banco de dados.",
+            technologies: "Technologies: TypeScript, React, Node.js, Express, Firebase",
+            websiteURL: "https://cdn.pixabay.com/photo/2017/10/26/17/51/under-construction-2891888_1280.jpg",
+            codeURL: "https://github.com/clodomilson-silva/sistema-escolarfreq",
         },
     ]
 
