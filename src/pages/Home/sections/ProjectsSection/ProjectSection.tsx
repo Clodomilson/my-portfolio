@@ -13,19 +13,19 @@ const ProjectsSection: React.FC = () => {
 
     const projects = [
         {
-            title: "Projeto EcoPoint",
-            subtitle: "Mar 2025 - em andamento",
+            title: "EcoPoint Project",
+            subtitle: "Mar 2025 - in progress",
             srcImg: projeto01,
-            description: "Aplicação web para localizar e cadastrar pontos de coleta de materiais recicláveis, com mapa interativo, cadastro de pontos e suporte a PWA.",
+            description: "Web application to locate and register collection points for recyclable materials, with interactive map, point registration and PWA support.",
             technologies: "Technologies: JavaScript, HTML, CSS, React, Node.js, Firebase",
             websiteURL: "https://ecopoint-web.vercel.app/",
             codeURL: "https://github.com/clodomilson-silva/Ecopoint_web",
         },
         {
-            title: "Projeto Sistema Escolar",
-            subtitle: "Jun 2025 - em andamento",
+            title: "School System Project",
+            subtitle: "Jun 2025 - in progress",
             srcImg: projeto02,
-            description: "Sistema completo para gerenciamento escolar desenvolvido com Node.js + Express no backend, React + TypeScript no frontend e Firebase Firestore como banco de dados.",
+            description: "Complete school management system developed with Node.js + Express on the backend, React + TypeScript on the frontend and Firebase Firestore as the database.",
             technologies: "Technologies: TypeScript, React, Node.js, Express, Firebase",
             websiteURL: "https://cdn.pixabay.com/photo/2017/10/26/17/51/under-construction-2891888_1280.jpg",
             codeURL: "https://github.com/clodomilson-silva/sistema-escolarfreq",

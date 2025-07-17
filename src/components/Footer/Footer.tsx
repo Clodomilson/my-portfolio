@@ -10,13 +10,13 @@ const Footer: React.FC = () => {
             <Box pt={2} pb={2}>
                 <Container maxWidth="sm">
                     <Box display="flex" alignItems="center" justifyContent="space-around" pb={1}>
-                        <IconButton onClick={() => window.open("https://github.com/Clodomilson")}>
+                        <IconButton onClick={() => window.open("https://github.com/clodomilson-silva")}>
                             <GitHubIcon />
                         </IconButton>
                         <IconButton onClick={() => window.open("https://www.linkedin.com/in/clodomilson-silva-b406b61bb")}>
                             <LinkedInIcon />
                         </IconButton>
-                        <IconButton href="mailto:example@example.com" target="_blank">
+                        <IconButton href="mailto:profclodomilson@gmail.com" target="_blank">
                             <EmailIcon />
                         </IconButton>
                     </Box>
